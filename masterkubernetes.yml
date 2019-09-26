@@ -1,4 +1,4 @@
-- hosts: "nodes" "master"
+- hosts: all
   become: yes
   tasks:
    - name: install Docker
